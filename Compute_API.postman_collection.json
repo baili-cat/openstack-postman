@@ -615,7 +615,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
+						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}",
 						"method": "GET",
 						"header": [
 							{
@@ -644,7 +644,7 @@
 						}
 					],
 					"request": {
-						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/detail/{{flavor_id}}",
+						"url": "http://{{IP}}:{{NOVA_V2_PORT}}/{{NOVA_API_VERSION}}/flavors/{{flavor_id}}",
 						"method": "DELETE",
 						"header": [
 							{
